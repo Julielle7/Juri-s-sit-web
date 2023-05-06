@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Figure 7-14: Layout</title>
+  <style>
+    #header{
+      background-color: #FF8C8C;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      text-align: center;
+    }
+    
+    #navbar {
+      background-color: #00E0FF;
+      height: 200px;
+      width: 100px;
+      float: left;
+      border 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      text-align: left;
+    }
+    
+    #content {
+      background-color: #EEEEEE;
+      height: 200px;
+      width: 412px;
+      float: left;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      text-align: center;
+    }
+    
+    #footer{
+      background-color: #FFBD47;
+      clear: both;
+      text-align: center;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+    }
+    
+    ul {
+      list-style-type: none;
+      line-height: 25px;
+      padding: 0px;
+    }
+    
+    
+    
+  </style>
+  </head>
+  <body>
+    <div id="header"><h1>Juri's Blog</h1></div>
+    
+    <div id="navbar">
+      <ul>
+        <li>About me</li>
+        <li>At a glance</li>
+        <li>Repertoire</li>
+        <li>Gallery</li>
+        <li>Events</li>
+        <li>Classes</li>
+        <li>Comment Contacter</li>
+      </ul>
+    </div>
+    
+    <div id="content"><img src="food.jpg" alt=Juri's web></div>
+      <div id="footer">Copyright &copy; Juri's web</div>
+      </body>
+    </html>
+        
